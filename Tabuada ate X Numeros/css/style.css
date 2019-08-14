@@ -1,0 +1,30 @@
+body {
+    font: normal 14pt Arial;
+    background: rgb(154, 154, 231);
+    
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{ 
+    width: 500px;
+    margin: auto;
+    padding: 8px;
+    background: white;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 8px;
+    box-shadow: 3px 4px rgba(0, 0, 0, 0.192);
+}
+
+input#qtdTxt{
+    width: 50px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
