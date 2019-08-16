@@ -14,6 +14,7 @@ function calcular(){
         for(let c = de; c <= ate; c++){
             let tabuada = document.createElement('select')//Quando o for iniciar será sempre criado um novo elemento, dependendo dos valores De e Até
             tabuada.size = 10
+            tabuada.disabled = true
             for(let aux = 1; aux <= 10; aux++){
                 let item = document.createElement('option')//Quando iniciar o segundo For, será criada as options.
                 item.text = `${c} x ${aux} = ${aux * c}` //Aqui será atribuido os valores para cada options
